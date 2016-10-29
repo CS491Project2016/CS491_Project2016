@@ -41,11 +41,7 @@
                 
                 return data;
               });
-              
-              console.log(masterImage);
-              console.log(playerImage);
-              console.log(diffImage);
-              console.log(percentage);
+            
               document.getElementById('diffValue').innerHTML = percentage;
               document.getElementById('diffImage').src = diffImage;
               document.getElementById('image1').src = masterImage;
